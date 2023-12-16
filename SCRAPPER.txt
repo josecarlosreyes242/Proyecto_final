@@ -1,0 +1,109 @@
+Consulta 1: Cursos por categoría de precio
+         Fecha Autoservicio  ...      Estrellas       CategoriaPrecio
+0   2023-12-15    Domestika  ...            96%               De pago
+1   2023-12-15    Domestika  ...           100%               De pago
+2   2023-12-15    Domestika  ...            99%               De pago
+3   2023-12-15    Domestika  ...            99%               De pago
+4   2023-12-15    Domestika  ...            98%               De pago
+5   2023-12-15     Coursera  ...            4.7                Gratis
+6   2023-12-15     Coursera  ...            4.6                Gratis
+7   2023-12-15     Coursera  ...            4.7  Precio no disponible
+8   2023-12-15     Coursera  ...            4.6  Precio no disponible
+9   2023-12-15     Coursera  ...            4.8  Precio no disponible
+10  2023-12-15     Coursera  ...            4.9  Precio no disponible
+11  2023-12-15     Coursera  ...            4.7  Precio no disponible
+12  2023-12-15     Coursera  ...  No disponible  Precio no disponible
+13  2023-12-15     Coursera  ...  No disponible  Precio no disponible
+14  2023-12-15     Coursera  ...            4.7                Gratis
+15  2023-12-15     Coursera  ...            4.5  Precio no disponible
+16  2023-12-15     Coursera  ...            4.6  Precio no disponible
+17  2023-12-15        Udemy  ...            4.7  Precio no disponible
+18  2023-12-15        Udemy  ...            4.4  Precio no disponible
+19  2023-12-15        Udemy  ...            4.6  Precio no disponible
+20  2023-12-15        Udemy  ...            4.5  Precio no disponible
+21  2023-12-15        Udemy  ...            4.4  Precio no disponible
+22  2023-12-15        Udemy  ...            4.8  Precio no disponible
+23  2023-12-15        Udemy  ...            4.7  Precio no disponible
+24  2023-12-15        Udemy  ...            4.6  Precio no disponible
+25  2023-12-15        Udemy  ...            4.7  Precio no disponible
+26  2023-12-15        Udemy  ...            4.5  Precio no disponible
+27  2023-12-15        Udemy  ...            4.1  Precio no disponible
+28  2023-12-15        Udemy  ...            4.5  Precio no disponible
+29  2023-12-15        Udemy  ...            4.4  Precio no disponible
+30  2023-12-15        Udemy  ...            4.5  Precio no disponible
+31  2023-12-15        Udemy  ...            4.3  Precio no disponible
+32  2023-12-15        Udemy  ...            4.6  Precio no disponible
+33  2023-12-15        Udemy  ...            4.7  Precio no disponible
+34  2023-12-15        Udemy  ...            4.4  Precio no disponible
+35  2023-12-15        Udemy  ...            4.6  Precio no disponible
+36  2023-12-15        Udemy  ...            4.5  Precio no disponible
+
+[37 rows x 7 columns]
+
+Consulta 2: Curso con la calificación más alta en cada plataforma
+        Fecha Autoservicio  ...      Estrellas MAX(Estrellas)
+0  2023-12-15     Coursera  ...  No disponible  No disponible
+1  2023-12-15    Domestika  ...            99%            99%
+2  2023-12-15        Udemy  ...            4.8            4.8
+
+[3 rows x 7 columns]
+
+Consulta 3: Cursos con enfoque en 'Machine Learning'
+         Fecha Autoservicio  ... Precio original Estrellas
+0   2023-12-15     Coursera  ...            Free       4.7
+1   2023-12-15     Coursera  ...            Free       4.6
+2   2023-12-15     Coursera  ...   No disponible       4.7
+3   2023-12-15     Coursera  ...   No disponible       4.6
+4   2023-12-15     Coursera  ...   No disponible       4.8
+5   2023-12-15     Coursera  ...   No disponible       4.9
+6   2023-12-15     Coursera  ...   No disponible       4.7
+7   2023-12-15     Coursera  ...   No disponible       4.6
+8   2023-12-15        Udemy  ...   No disponible       4.7
+9   2023-12-15        Udemy  ...   No disponible       4.4
+10  2023-12-15        Udemy  ...   No disponible       4.6
+11  2023-12-15        Udemy  ...   No disponible       4.5
+12  2023-12-15        Udemy  ...   No disponible       4.7
+13  2023-12-15        Udemy  ...   No disponible       4.6
+14  2023-12-15        Udemy  ...   No disponible       4.7
+15  2023-12-15        Udemy  ...   No disponible       4.5
+16  2023-12-15        Udemy  ...   No disponible       4.6
+17  2023-12-15        Udemy  ...   No disponible       4.7
+18  2023-12-15        Udemy  ...   No disponible       4.6
+
+[19 rows x 6 columns]
+
+Consulta 4: Cursos lanzados recientemente con alta calificación
+         Fecha Autoservicio  ... Precio original      Estrellas
+0   2023-12-15    Domestika  ...         Comprar            96%
+1   2023-12-15    Domestika  ...         Comprar            99%
+2   2023-12-15    Domestika  ...         Comprar            99%
+3   2023-12-15    Domestika  ...         Comprar            98%
+4   2023-12-15     Coursera  ...            Free            4.7
+5   2023-12-15     Coursera  ...            Free            4.6
+6   2023-12-15     Coursera  ...   No disponible            4.7
+7   2023-12-15     Coursera  ...   No disponible            4.6
+8   2023-12-15     Coursera  ...   No disponible            4.8
+9   2023-12-15     Coursera  ...   No disponible            4.9
+10  2023-12-15     Coursera  ...   No disponible            4.7
+11  2023-12-15     Coursera  ...   No disponible  No disponible
+12  2023-12-15     Coursera  ...   No disponible  No disponible
+13  2023-12-15     Coursera  ...            Free            4.7
+14  2023-12-15     Coursera  ...   No disponible            4.5
+15  2023-12-15     Coursera  ...   No disponible            4.6
+16  2023-12-15        Udemy  ...   No disponible            4.7
+17  2023-12-15        Udemy  ...   No disponible            4.6
+18  2023-12-15        Udemy  ...   No disponible            4.5
+19  2023-12-15        Udemy  ...   No disponible            4.8
+20  2023-12-15        Udemy  ...   No disponible            4.7
+21  2023-12-15        Udemy  ...   No disponible            4.6
+22  2023-12-15        Udemy  ...   No disponible            4.7
+23  2023-12-15        Udemy  ...   No disponible            4.5
+24  2023-12-15        Udemy  ...   No disponible            4.5
+25  2023-12-15        Udemy  ...   No disponible            4.5
+26  2023-12-15        Udemy  ...   No disponible            4.6
+27  2023-12-15        Udemy  ...   No disponible            4.7
+28  2023-12-15        Udemy  ...   No disponible            4.6
+29  2023-12-15        Udemy  ...   No disponible            4.5
+
+[30 rows x 6 columns]
+Scraping completado, datos guardados y consultas SQL realizadas.
